@@ -50,7 +50,9 @@ Array.prototype.myMap = function(callback) {
 ---
 #### .filter():
  - calls a function on each element of an array and returns a new array containing only the elements for which that function returns a truthy value.
+ 
  - .filter Implementation :
+ 
  ```js
  Array.prototype.myFilter = function(callback) {
   const newArray = [];
@@ -66,7 +68,9 @@ Array.prototype.myMap = function(callback) {
   return newArray;
 };
 ```
+
 ---
+
 #### .slice():
 1. Slice method returns copy of certain or all elements of the array: 
 	it's arguments : 1. index of begin 
