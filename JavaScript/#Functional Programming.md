@@ -106,4 +106,83 @@ console.log(sumOfAges);
 ---
 #### .Sort():
 - The `sort` method sorts the elements of an array according to the callback function.
-- 
+- if not givin a call back function it sort according to unicode order.
+ex :
+```js
+function ascendingOrder(arr) {
+  return arr.sort(function(a, b) {
+    return a - b;
+  });
+}
+
+ascendingOrder([1, 5, 2, 3, 4]); // return 1 2 3 4 5
+```
+-  If `compareFunction(a,b)` returns a value less than 0 for two elements `a` and `b`, then `a` will come before `b`. If `compareFunction(a,b)` returns a value greater than 0 for two elements `a` and `b`, then `b` will come before `a`. If `compareFunction(a,b)` returns a value equal to 0 for two elements `a` and `b`, then `a` and `b` will remain unchanged.
+- it __mutates__ array.
+---
+#### .Split() :
+- it splits method to array of strings.
+- it takes argument as a delimiter.
+- ex : 
+```js
+const str = "Hello World";
+const bySpace = str.split(" ");
+
+const otherString = "How9are7you2today";
+const byDigits = otherString.split(/\d/);
+```
+- strings are immutable so its easy so split it .
+---
+#### .Join():
+- it is used to join elements of an array to create a string.
+- it takes argument as a delimiter that is used to separate arr elements in string.
+- ex : 
+```js
+const arr = ["Hello", "World"];
+const str = arr.join(" ");
+```
+---
+#### .every():
+- The `every` method works with arrays to check if _every_ element passes a particular test.
+- it returns boolean value if all are true else false ex:
+```js
+const numbers = [1, 5, 8, 0, 10, 11];
+
+numbers.every(function(currentValue) {
+  return currentValue < 10; // return false.
+});
+```
+---
+#### .some():
+- The Some method works with arrays to check if any element passes a particular test
+- It returns a Boolean value - `true` if any of the values meet the criteria, `false` if not.
+- ex :
+```js
+const numbers = [10, 50, 8, 220, 110, 11];
+
+numbers.some(function(currentValue) {
+  return currentValue < 10; // return true
+});
+```
+---
+#### Currying : 
+The arity of a function is the number of arguments it requires. Currying a function means to convert a function of N arity into N functions of arity 1.
+ex : 
+```js
+function unCurried(x, y) {
+  return x + y;
+}
+//first way
+function curried(x) {
+  return function(y) {
+    return x + y;
+  }
+}
+//second way
+const curried = x => y => x + y
+
+curried(1)(2)
+```
+---
+#### .includes ():
+it is a function used to know if an array includes something.
