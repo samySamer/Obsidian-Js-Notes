@@ -48,13 +48,11 @@ Array.prototype.myMap = function(callback) {
 };
 ```
 ---
-#### .filter():
- - calls a function on each element of an array and returns a new array containing only the elements for which that function returns a truthy value.
- 
- - .filter Implementation :
- 
- ```js
- Array.prototype.myFilter = function(callback) {
+### .filter():
+- calls a function on each element of an array and returns a new array containing only the elements for which that function returns a truthy value.
+**.filter implementation : **
+```js
+Array.prototype.myFilter = function(callback) {
   const newArray = [];
   // Only change code below this line
   for(let i=0;i<this.length;i++){
@@ -68,7 +66,6 @@ Array.prototype.myMap = function(callback) {
   return newArray;
 };
 ```
-
 ---
 
 #### .slice():
@@ -82,6 +79,7 @@ const newArray = arr.slice(1, 3);
 ```
 2. when trying to remove somethin from array use Slice not Splice as splice mutate the array while slice doesn't.
 ---
+
 #### .Concat():
 - Concat joins items end to end (non Mutating) ex:
 ```js
