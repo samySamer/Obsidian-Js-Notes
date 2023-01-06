@@ -188,3 +188,7 @@ curried(1)(2)
 ---
 #### .includes ():
 it is a function used to know if an array includes something.
+
+---
+### .findIndex() :
+finds the index at which the function passes it and return true.

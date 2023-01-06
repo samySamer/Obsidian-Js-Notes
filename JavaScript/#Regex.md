@@ -138,4 +138,3 @@ let repeatRegex = /Repeat/g;
 testStr.match(repeatRegex);
 ```
 3. 
-

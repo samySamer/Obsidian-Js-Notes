@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "#Functional Programming.md",
+                "file": "#Regex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca4e12f1e15eec4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes For problem solving..md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "#Functional Programming.md",
+                "file": "Notes For problem solving..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "#Functional Programming.md",
+                "file": "Notes For problem solving..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "#Functional Programming.md"
+                "file": "Notes For problem solving..md"
               }
             }
           }
@@ -195,13 +207,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac5953c23951c233",
+  "active": "ca4e12f1e15eec4a",
   "lastOpenFiles": [
+    "#Regex.md",
+    "Notes For problem solving..md",
+    "#Strings.md",
+    "Untitled.md",
     "#dataStructure In Js.md",
     "#Functional Programming.md",
     "#OOP Js.md",
-    "#Strings.md",
-    "#Regex.md",
     "#Debugging.md"
   ]
 }
